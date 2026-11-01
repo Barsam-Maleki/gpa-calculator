@@ -12,4 +12,4 @@ def calculate_gpa(courses):
 
 def is_passed(grade):
     """A course is passed with a grade of 10 or more."""
-    return grade > 10
+    return grade >= 10
